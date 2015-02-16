@@ -131,6 +131,7 @@
 		A46F6B601A8A627600352A7D /* 51	N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B5E1A8A627600352A7D /* 51	N-Queens.cpp */; };
 		A46F6B631A8A628E00352A7D /* 47	Permutations II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */; };
 		A46F6B661A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */; };
+		A4A285311A92224B00EC986E /* 187	Repeated DNA Sequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -147,7 +148,7 @@
 
 /* Begin PBXFileReference section */
 		A4189FCC1A272AE300E363E6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4189FCF1A272AE300E363E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4189FCF1A272AE300E363E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LeetCode/main.cpp; sourceTree = "<group>"; };
 		A46F6A171A8A491E00352A7D /* commonheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonheader.h; sourceTree = "<group>"; };
 		A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "172\tFactorial Trailing Zeroes.cpp"; sourceTree = "<group>"; };
 		A46F6A1B1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "171\tExcel Sheet Column Number.cpp"; sourceTree = "<group>"; };
@@ -272,6 +273,7 @@
 		A46F6B5E1A8A627600352A7D /* 51	N-Queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "51\tN-Queens.cpp"; sourceTree = "<group>"; };
 		A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "47\tPermutations II.cpp"; sourceTree = "<group>"; };
 		A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "23\tMerge k Sorted Lists.cpp"; sourceTree = "<group>"; };
+		A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187\tRepeated DNA Sequences.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +290,7 @@
 		A4189FC31A272AE300E363E6 = {
 			isa = PBXGroup;
 			children = (
+				A4189FCF1A272AE300E363E6 /* main.cpp */,
 				A4189FCE1A272AE300E363E6 /* LeetCode */,
 				A4189FCD1A272AE300E363E6 /* Products */,
 			);
@@ -427,7 +430,7 @@
 				A46F6A1D1A8A4DA000352A7D /* 169	Majority Element.cpp */,
 				A46F6A1B1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp */,
 				A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */,
-				A4189FCF1A272AE300E363E6 /* main.cpp */,
+				A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */,
 				A46F6A171A8A491E00352A7D /* commonheader.h */,
 			);
 			path = LeetCode;
@@ -523,6 +526,7 @@
 				A46F6B3C1A8A611A00352A7D /* 12	Integer to Roman.cpp in Sources */,
 				A46F6A571A8A565300352A7D /* 20	Valid Parentheses.cpp in Sources */,
 				A46F6A2D1A8A530300352A7D /* 118	Pascal's Triangle.cpp in Sources */,
+				A4A285311A92224B00EC986E /* 187	Repeated DNA Sequences.cpp in Sources */,
 				A46F6AAF1A8A5B2A00352A7D /* 116	Populating Next Right Pointers in Each Node.cpp in Sources */,
 				A46F6B1E1A8A5FC300352A7D /* 40	Combination Sum II.cpp in Sources */,
 				A46F6B421A8A614F00352A7D /* 2	Add Two Numbers.cpp in Sources */,

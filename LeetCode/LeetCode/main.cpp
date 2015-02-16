@@ -53,28 +53,34 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    int trailingZeroes(int n) {
-        if (n==0) {
-            return 0;
+    unordered_set<int> substrings;
+    vector<string> result;
+    hash<string> mapping;
+    vector<string> findRepeatedDnaSequences(string s) {
+        if (s.length()<11) {
+            return result;
         }
-        int count=0;
-        int i=0;
-        while (++i) {
-            int temp=n/pow(5, i);
-            if (temp>0) {
-                count+=temp;
+        for (int i=0; i<s.length()-9; i++) {
+            string substr = s.substr(i,10);
+            int sub = mapping(substr);
+            if (substrings.find(sub)==substrings.end()) {
+                substrings.insert(sub);
             }
-            else{
-                break;
+            else {
+                if(find(result.begin(), result.end(), substr)==result.end()) {
+                    result.push_back(substr);
+                }
             }
         }
-        return count;
+        return result;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    s.trailingZeroes(30);
+    hash<string> mapping;
+    long res1 = mapping("adkajfkdlajfkdljfklddsajkflkdsajfalksdjfkldasjfkladjsklfjaslkfjdslkj");
+    long res2 = mapping("adkajfkdlajfkdljfklddsajkflkdsajfalksdjfkldasjfkladjsklfjaslkfjdslka");
     return 0;
 }
