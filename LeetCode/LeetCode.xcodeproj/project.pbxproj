@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4189FD01A272AE300E363E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4189FCF1A272AE300E363E6 /* main.cpp */; };
+		A42CAAF41A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */; };
 		A44644061A931AD500DFACE1 /* 179	Largest Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */; };
 		A46F6A1A1A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */; };
 		A46F6A1C1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A1B1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp */; };
@@ -150,6 +151,7 @@
 /* Begin PBXFileReference section */
 		A4189FCC1A272AE300E363E6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4189FCF1A272AE300E363E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LeetCode/main.cpp; sourceTree = "<group>"; };
+		A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "188\tBest Time to Buy and Sell Stock IV.cpp"; sourceTree = "<group>"; };
 		A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "179\tLargest Number.cpp"; sourceTree = "<group>"; };
 		A46F6A171A8A491E00352A7D /* commonheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonheader.h; sourceTree = "<group>"; };
 		A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "172\tFactorial Trailing Zeroes.cpp"; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 				A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */,
 				A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */,
 				A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */,
+				A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */,
 				A46F6A171A8A491E00352A7D /* commonheader.h */,
 			);
 			path = LeetCode;
@@ -571,6 +574,7 @@
 				A46F6A1A1A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp in Sources */,
 				A46F6B481A8A618100352A7D /* 1	Two Sum.cpp in Sources */,
 				A46F6AF41A8A5E2A00352A7D /* 73	Set Matrix Zeroes.cpp in Sources */,
+				A42CAAF41A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp in Sources */,
 				A46F6AC71A8A5C4100352A7D /* 96	Unique Binary Search Trees.cpp in Sources */,
 				A46F6A1C1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp in Sources */,
 				A46F6A3D1A8A548100352A7D /* 100	Same Tree.cpp in Sources */,
