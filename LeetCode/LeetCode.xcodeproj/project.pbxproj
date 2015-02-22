@@ -134,6 +134,7 @@
 		A46F6B631A8A628E00352A7D /* 47	Permutations II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */; };
 		A46F6B661A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */; };
 		A4A285311A92224B00EC986E /* 187	Repeated DNA Sequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */; };
+		A4C733C11A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C733C01A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -278,6 +279,7 @@
 		A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "47\tPermutations II.cpp"; sourceTree = "<group>"; };
 		A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "23\tMerge k Sorted Lists.cpp"; sourceTree = "<group>"; };
 		A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187\tRepeated DNA Sequences.cpp"; sourceTree = "<group>"; };
+		A4C733C01A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "145\tBinary Tree Postorder Traversal.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,6 +419,7 @@
 				A46F6A861A8A58F300352A7D /* 142	Linked List Cycle II.cpp */,
 				A46F6A831A8A58C900352A7D /* 143	Reorder List.cpp */,
 				A46F6A801A8A58A800352A7D /* 144	Binary Tree Preorder Traversal.cpp */,
+				A4C733C01A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp */,
 				A46F6B4C1A8A61B700352A7D /* 146	LRU Cache.cpp */,
 				A46F6A7D1A8A587A00352A7D /* 147	Insertion Sort List.cpp */,
 				A46F6A7A1A8A584E00352A7D /* 148	Sort List.cpp */,
@@ -504,6 +507,7 @@
 				A46F6B361A8A60DB00352A7D /* 18	4Sum.cpp in Sources */,
 				A46F6A701A8A57D400352A7D /* 153	Find Minimum in Rotated Sorted Array.cpp in Sources */,
 				A46F6A371A8A53EE00352A7D /* 104	Maximum Depth of Binary Tree.cpp in Sources */,
+				A4C733C11A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp in Sources */,
 				A46F6AA91A8A5AD000352A7D /* 121	Best Time to Buy and Sell Stock.cpp in Sources */,
 				A46F6A391A8A542400352A7D /* 102	Binary Tree Level Order Traversal.cpp in Sources */,
 				A46F6A491A8A555400352A7D /* 21	Merge Two Sorted Lists.cpp in Sources */,

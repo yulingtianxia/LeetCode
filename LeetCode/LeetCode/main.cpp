@@ -53,36 +53,39 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    int maxProfit(int k, vector<int> &prices) {
-        int size = (int)prices.size();
-        if (k==0||size<2) {
-            return 0;
-        }
-        if (k>size/2) {
-            int sum = 0;
-            for(int i = 1;i < size;i++){
-                if(prices[i] > prices[i-1]){
-                    sum += prices[i] - prices[i-1];
+    vector<int> postorderTraversal(TreeNode *root) {
+        vector<int> result;
+        if (root) {
+            stack<TreeNode *> nodes;
+            nodes.push(root);
+            while (!nodes.empty()) {
+                TreeNode *top = nodes.top();
+                if ((!top->left)&&(!top->right)) {
+                    result.push_back(top->val);
+                    nodes.pop();
+                }
+                if (top->right) {
+                    nodes.push(top->right);
+                    top->right=NULL;
+                }
+                if (top->left) {
+                    nodes.push(top->left);
+                    top->left=NULL;
                 }
             }
-            return sum;
         }
-        vector<int> buy(k,INT_MIN);
-        vector<int> sell(k,0);
-        for (int i=0; i<size; i++) {
-            for (int j=k-1; j>=0; j--) {
-                sell[j]=max(sell[j],buy[j]+prices[i]);
-                buy[j]=max(buy[j],(j>0?sell[j-1]:0)-prices[i]);
-            }
-        }
-        return sell[k-1];
+        return result;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    vector<int> nums = {6,1,3,2,4,7};
-    int result = s.maxProfit(2, nums);
+    TreeNode *a=new TreeNode(1);
+    TreeNode *b=new TreeNode(2);
+    TreeNode *c=new TreeNode(3);
+    a->right = b;
+    b->left = c;
+    vector<int> result = s.postorderTraversal(a);
     return 0;
 }
