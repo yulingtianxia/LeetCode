@@ -53,20 +53,44 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    void rotate(vector<vector<int> > &matrix) {
-        int n=(int)matrix.size();
-        for (int i=0; i<n; i++) {
-            for (int j=0; j<n; j++) {
-                swap(matrix[i][j], matrix[n-1-j][n-1-i]);//对角线对称变换
+    TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) {
+        return buildTreeHelper(inorder, postorder, 0, (int)inorder.size()-1);
+    }
+    TreeNode *buildTreeHelper(vector<int> inorder, vector<int> postorder,int left, int right) {
+        if (left==right) {
+            return new TreeNode(inorder[left]);
+        }
+        for (int j=(int)postorder.size()-1; j>=0; j--) {
+            for (int i=left; i<=right; i++) {
+                if (inorder[i]==postorder[j]) {
+                    TreeNode *leftTree=NULL,*rightTree=NULL;
+                    postorder.erase(postorder.begin()+j);
+                    if (left!=i) {
+                        leftTree = buildTreeHelper(inorder, postorder, left, i-1);
+                    }
+                    if (right!=i) {
+                        rightTree = buildTreeHelper(inorder, postorder, i+1, right);
+                    }
+                    auto root = new TreeNode(inorder[i]);
+                    root->left=leftTree;
+                    root->right=rightTree;
+                    return root;
+                }
             }
         }
-        reverse(matrix.begin(), matrix.end());//上下颠倒
+        return NULL;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-
+//    vector<int> inorder(3000);
+//    vector<int> postorder(3000);
+//    iota(inorder.begin(), inorder.end(), -999);
+//    iota(postorder.begin(), postorder.end(), -999);
+    vector<int> inorder = {1,2};
+    vector<int> postorder = {2,1};
+    auto result = s.buildTree(inorder, postorder);
     return 0;
 }
