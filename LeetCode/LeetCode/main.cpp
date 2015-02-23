@@ -53,39 +53,20 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    vector<int> postorderTraversal(TreeNode *root) {
-        vector<int> result;
-        if (root) {
-            stack<TreeNode *> nodes;
-            nodes.push(root);
-            while (!nodes.empty()) {
-                TreeNode *top = nodes.top();
-                if ((!top->left)&&(!top->right)) {
-                    result.push_back(top->val);
-                    nodes.pop();
-                }
-                if (top->right) {
-                    nodes.push(top->right);
-                    top->right=NULL;
-                }
-                if (top->left) {
-                    nodes.push(top->left);
-                    top->left=NULL;
-                }
+    void rotate(vector<vector<int> > &matrix) {
+        int n=(int)matrix.size();
+        for (int i=0; i<n; i++) {
+            for (int j=0; j<n; j++) {
+                swap(matrix[i][j], matrix[n-1-j][n-1-i]);//对角线对称变换
             }
         }
-        return result;
+        reverse(matrix.begin(), matrix.end());//上下颠倒
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    TreeNode *a=new TreeNode(1);
-    TreeNode *b=new TreeNode(2);
-    TreeNode *c=new TreeNode(3);
-    a->right = b;
-    b->left = c;
-    vector<int> result = s.postorderTraversal(a);
+
     return 0;
 }

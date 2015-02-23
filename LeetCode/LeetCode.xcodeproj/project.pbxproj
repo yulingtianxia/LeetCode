@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4189FD01A272AE300E363E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4189FCF1A272AE300E363E6 /* main.cpp */; };
+		A424D0591A9AFEA100F8439F /* 48	Rotate Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A424D0581A9AFEA100F8439F /* 48	Rotate Image.cpp */; };
 		A42CAAF41A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */; };
 		A44644061A931AD500DFACE1 /* 179	Largest Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */; };
 		A46F6A1A1A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */; };
@@ -152,6 +153,7 @@
 /* Begin PBXFileReference section */
 		A4189FCC1A272AE300E363E6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4189FCF1A272AE300E363E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LeetCode/main.cpp; sourceTree = "<group>"; };
+		A424D0581A9AFEA100F8439F /* 48	Rotate Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "48\tRotate Image.cpp"; sourceTree = "<group>"; };
 		A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "188\tBest Time to Buy and Sell Stock IV.cpp"; sourceTree = "<group>"; };
 		A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "179\tLargest Number.cpp"; sourceTree = "<group>"; };
 		A46F6A171A8A491E00352A7D /* commonheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonheader.h; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				A46F6B191A8A5F9F00352A7D /* 43	Multiply Strings.cpp */,
 				A46F6B161A8A5F8500352A7D /* 46	Permutations.cpp */,
 				A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */,
+				A424D0581A9AFEA100F8439F /* 48	Rotate Image.cpp */,
 				A46F6B131A8A5F6000352A7D /* 50	Pow(x, n).cpp */,
 				A46F6B5E1A8A627600352A7D /* 51	N-Queens.cpp */,
 				A46F6B5B1A8A625E00352A7D /* 52	N-Queens II.cpp */,
@@ -532,6 +535,7 @@
 				A46F6AFD1A8A5E7A00352A7D /* 63	Unique Paths II.cpp in Sources */,
 				A46F6A611A8A570B00352A7D /* 8	String to Integer (atoi).cpp in Sources */,
 				A46F6B541A8A620E00352A7D /* 123	Best Time to Buy and Sell Stock III.cpp in Sources */,
+				A424D0591A9AFEA100F8439F /* 48	Rotate Image.cpp in Sources */,
 				A46F6B661A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp in Sources */,
 				A46F6AF71A8A5E4C00352A7D /* 69	Sqrt(x).cpp in Sources */,
 				A46F6B3C1A8A611A00352A7D /* 12	Integer to Roman.cpp in Sources */,
