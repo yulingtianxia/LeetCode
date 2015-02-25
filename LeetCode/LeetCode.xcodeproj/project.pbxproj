@@ -137,6 +137,10 @@
 		A46F6B631A8A628E00352A7D /* 47	Permutations II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */; };
 		A46F6B661A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */; };
 		A4A285311A92224B00EC986E /* 187	Repeated DNA Sequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */; };
+		A4C0124F1A9DAF01000FEDFE /* 106	Construct Binary Tree from Inorder and Postorder Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C0124E1A9DAF01000FEDFE /* 106	Construct Binary Tree from Inorder and Postorder Traversal.cpp */; };
+		A4C012511A9DB549000FEDFE /* 105	Construct Binary Tree from Preorder and Inorder Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C012501A9DB549000FEDFE /* 105	Construct Binary Tree from Preorder and Inorder Traversal.cpp */; };
+		A4C012531A9DBA4B000FEDFE /* 189	Rotate Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C012521A9DBA4B000FEDFE /* 189	Rotate Array.cpp */; };
+		A4C012551A9DF608000FEDFE /* 128	Longest Consecutive Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C012541A9DF608000FEDFE /* 128	Longest Consecutive Sequence.cpp */; };
 		A4C733C11A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C733C01A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp */; };
 /* End PBXBuildFile section */
 
@@ -285,6 +289,10 @@
 		A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "47\tPermutations II.cpp"; sourceTree = "<group>"; };
 		A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "23\tMerge k Sorted Lists.cpp"; sourceTree = "<group>"; };
 		A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187\tRepeated DNA Sequences.cpp"; sourceTree = "<group>"; };
+		A4C0124E1A9DAF01000FEDFE /* 106	Construct Binary Tree from Inorder and Postorder Traversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "106\tConstruct Binary Tree from Inorder and Postorder Traversal.cpp"; sourceTree = "<group>"; };
+		A4C012501A9DB549000FEDFE /* 105	Construct Binary Tree from Preorder and Inorder Traversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "105\tConstruct Binary Tree from Preorder and Inorder Traversal.cpp"; sourceTree = "<group>"; };
+		A4C012521A9DBA4B000FEDFE /* 189	Rotate Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "189\tRotate Array.cpp"; sourceTree = "<group>"; };
+		A4C012541A9DF608000FEDFE /* 128	Longest Consecutive Sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "128\tLongest Consecutive Sequence.cpp"; sourceTree = "<group>"; };
 		A4C733C01A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "145\tBinary Tree Postorder Traversal.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -398,6 +406,8 @@
 				A46F6A381A8A542400352A7D /* 102	Binary Tree Level Order Traversal.cpp */,
 				A46F6ABC1A8A5BD600352A7D /* 103	Binary Tree Zigzag Level Order Traversal.cpp */,
 				A46F6A361A8A53EE00352A7D /* 104	Maximum Depth of Binary Tree.cpp */,
+				A4C012501A9DB549000FEDFE /* 105	Construct Binary Tree from Preorder and Inorder Traversal.cpp */,
+				A4C0124E1A9DAF01000FEDFE /* 106	Construct Binary Tree from Inorder and Postorder Traversal.cpp */,
 				A46F6A341A8A539D00352A7D /* 107	Binary Tree Level Order Traversal II.cpp */,
 				A46F6AB91A8A5BB800352A7D /* 108	Convert Sorted Array to Binary Search Tree.cpp */,
 				A46F6AB61A8A5B7C00352A7D /* 109	Convert Sorted List to Binary Search Tree.cpp */,
@@ -415,6 +425,7 @@
 				A46F6AA41A8A5A5500352A7D /* 122	Best Time to Buy and Sell Stock II.cpp */,
 				A46F6B521A8A620E00352A7D /* 123	Best Time to Buy and Sell Stock III.cpp */,
 				A46F6A281A8A52C200352A7D /* 125	Valid Palindrome.cpp */,
+				A4C012541A9DF608000FEDFE /* 128	Longest Consecutive Sequence.cpp */,
 				A46F6AA11A8A5A1B00352A7D /* 129	Sum Root to Leaf Numbers.cpp */,
 				A46F6A9E1A8A59F900352A7D /* 130	Surrounded Regions.cpp */,
 				A46F6A9B1A8A59CD00352A7D /* 131	Palindrome Partitioning.cpp */,
@@ -449,6 +460,7 @@
 				A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */,
 				A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */,
 				A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */,
+				A4C012521A9DBA4B000FEDFE /* 189	Rotate Array.cpp */,
 				A46F6A171A8A491E00352A7D /* commonheader.h */,
 			);
 			path = LeetCode;
@@ -517,6 +529,7 @@
 				A46F6B361A8A60DB00352A7D /* 18	4Sum.cpp in Sources */,
 				A46F6A701A8A57D400352A7D /* 153	Find Minimum in Rotated Sorted Array.cpp in Sources */,
 				A46F6A371A8A53EE00352A7D /* 104	Maximum Depth of Binary Tree.cpp in Sources */,
+				A4C012551A9DF608000FEDFE /* 128	Longest Consecutive Sequence.cpp in Sources */,
 				A4C733C11A99FD9000EFC836 /* 145	Binary Tree Postorder Traversal.cpp in Sources */,
 				A46F6AA91A8A5AD000352A7D /* 121	Best Time to Buy and Sell Stock.cpp in Sources */,
 				A46F6A391A8A542400352A7D /* 102	Binary Tree Level Order Traversal.cpp in Sources */,
@@ -563,6 +576,7 @@
 				A46F6A4D1A8A559200352A7D /* 38	Count and Say.cpp in Sources */,
 				A46F6A591A8A567000352A7D /* 19	Remove Nth Node From End of List.cpp in Sources */,
 				A46F6AEB1A8A5DD800352A7D /* 77	Combinations.cpp in Sources */,
+				A4C0124F1A9DAF01000FEDFE /* 106	Construct Binary Tree from Inorder and Postorder Traversal.cpp in Sources */,
 				A46F6A4B1A8A557300352A7D /* 58	Length of Last Word.cpp in Sources */,
 				A46F6A451A8A551400352A7D /* 66	Plus One.cpp in Sources */,
 				A46F6B091A8A5EEC00352A7D /* 59	Spiral Matrix II.cpp in Sources */,
@@ -577,6 +591,7 @@
 				A46F6ADF1A8A5D4800352A7D /* 82	Remove Duplicates from Sorted List II.cpp in Sources */,
 				A46F6A411A8A54C000352A7D /* 83	Remove Duplicates from Sorted List.cpp in Sources */,
 				A46F6A291A8A52C200352A7D /* 125	Valid Palindrome.cpp in Sources */,
+				A4C012511A9DB549000FEDFE /* 105	Construct Binary Tree from Preorder and Inorder Traversal.cpp in Sources */,
 				A46F6AAC1A8A5AF700352A7D /* 120	Triangle.cpp in Sources */,
 				A46F6A511A8A55E500352A7D /* 28	Implement strStr().cpp in Sources */,
 				A46F6B001A8A5E9500352A7D /* 62	Unique Paths.cpp in Sources */,
@@ -594,6 +609,7 @@
 				A46F6AC71A8A5C4100352A7D /* 96	Unique Binary Search Trees.cpp in Sources */,
 				A46F6A1C1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp in Sources */,
 				A46F6A3D1A8A548100352A7D /* 100	Same Tree.cpp in Sources */,
+				A4C012531A9DBA4B000FEDFE /* 189	Rotate Array.cpp in Sources */,
 				A46F6A471A8A553200352A7D /* 67	Add Binary.cpp in Sources */,
 				A46F6AC11A8A5BF100352A7D /* 98	Validate Binary Search Tree.cpp in Sources */,
 				A46F6A7F1A8A587A00352A7D /* 147	Insertion Sort List.cpp in Sources */,

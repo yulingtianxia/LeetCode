@@ -51,46 +51,25 @@ struct UndirectedGraphNode {
     UndirectedGraphNode(int x) : label(x) {};
 };
 
+
 class Solution {
 public:
-    TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) {
-        return buildTreeHelper(inorder, postorder, 0, (int)inorder.size()-1);
-    }
-    TreeNode *buildTreeHelper(vector<int> inorder, vector<int> postorder,int left, int right) {
-        if (left==right) {
-            return new TreeNode(inorder[left]);
-        }
-        for (int j=(int)postorder.size()-1; j>=0; j--) {
-            for (int i=left; i<=right; i++) {
-                if (inorder[i]==postorder[j]) {
-                    TreeNode *leftTree=NULL,*rightTree=NULL;
-                    postorder.erase(postorder.begin()+j);
-                    if (left!=i) {
-                        leftTree = buildTreeHelper(inorder, postorder, left, i-1);
-                    }
-                    if (right!=i) {
-                        rightTree = buildTreeHelper(inorder, postorder, i+1, right);
-                    }
-                    auto root = new TreeNode(inorder[i]);
-                    root->left=leftTree;
-                    root->right=rightTree;
-                    return root;
-                }
+    int longestConsecutive(vector<int> &num) {
+        unordered_map<int, int> sequences;//begin->length:序列两端记录着序列长度
+        int result=0;
+        for(auto i:num){
+            if (!sequences[i]) {
+                result = max(result, sequences[i-sequences[i-1]]=sequences[i+sequences[i+1]]=sequences[i]=sequences[i+1]+sequences[i-1]+1);
             }
         }
-        return NULL;
+        return result;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-//    vector<int> inorder(3000);
-//    vector<int> postorder(3000);
-//    iota(inorder.begin(), inorder.end(), -999);
-//    iota(postorder.begin(), postorder.end(), -999);
-    vector<int> inorder = {1,2};
-    vector<int> postorder = {2,1};
-    auto result = s.buildTree(inorder, postorder);
+    vector<int> num = {4,0,-4,-2,2,5,2,0,-8,-8,-8,-8,-1,7,4,5,5,-4,6,6,-3};
+    s.longestConsecutive(num);
     return 0;
 }
