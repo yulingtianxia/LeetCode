@@ -54,22 +54,38 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    int longestConsecutive(vector<int> &num) {
-        unordered_map<int, int> sequences;//begin->length:序列两端记录着序列长度
-        int result=0;
-        for(auto i:num){
-            if (!sequences[i]) {
-                result = max(result, sequences[i-sequences[i-1]]=sequences[i+sequences[i+1]]=sequences[i]=sequences[i+1]+sequences[i-1]+1);
+    int result=0;
+    int trap(int A[], int n) {
+        vector<int> channels;
+        int leftHill=0,rightHill=n-1;
+        while (leftHill<rightHill) {
+            if (A[leftHill]<=A[rightHill]) {//左侧向右推进
+                do {
+                    channels.push_back(A[leftHill++]);
+                } while (leftHill<rightHill&&channels[0]>=A[leftHill]);
+                trapHelper(channels);
+            }
+            else{//右侧向左推进
+                do {
+                    channels.push_back(A[rightHill--]);
+                } while (leftHill<rightHill&&channels[0]>=A[rightHill]);
+                trapHelper(channels);
             }
         }
         return result;
+    }
+    void trapHelper(vector<int> &channels){
+        for (int i=0; i<channels.size(); i++) {
+            result+=channels[0]-channels[i];
+        }
+        channels.clear();
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    vector<int> num = {4,0,-4,-2,2,5,2,0,-8,-8,-8,-8,-1,7,4,5,5,-4,6,6,-3};
-    s.longestConsecutive(num);
+    int A[] = {2,0,2};
+    int result=s.trap(A, 3);
     return 0;
 }
