@@ -54,38 +54,35 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    int result=0;
-    int trap(int A[], int n) {
-        vector<int> channels;
-        int leftHill=0,rightHill=n-1;
-        while (leftHill<rightHill) {
-            if (A[leftHill]<=A[rightHill]) {//左侧向右推进
-                do {
-                    channels.push_back(A[leftHill++]);
-                } while (leftHill<rightHill&&channels[0]>=A[leftHill]);
-                trapHelper(channels);
-            }
-            else{//右侧向左推进
-                do {
-                    channels.push_back(A[rightHill--]);
-                } while (leftHill<rightHill&&channels[0]>=A[rightHill]);
-                trapHelper(channels);
+    set<pair<int , int>> lands;
+    int numIslands(vector<vector<char>> &grid) {
+        int result=0;
+        for (int i=0; i<grid.size(); i++) {
+            for (int j=0; j<grid[0].size(); j++) {
+                if (grid[i][j]=='1'&&lands.find(pair<int, int>(i,j))==lands.end()) {
+                    searchAround(i, j, grid);
+                    result++;
+                }
             }
         }
         return result;
     }
-    void trapHelper(vector<int> &channels){
-        for (int i=0; i<channels.size(); i++) {
-            result+=channels[0]-channels[i];
+    void searchAround(int i,int j,vector<vector<char>> &grid) {
+        if (lands.find(pair<int, int>(i,j))==lands.end()) {
+            lands.insert(pair<int, int>(i,j));
+            if (i+1<grid.size()&&grid[i+1][j]=='1') {
+                searchAround(i+1, j, grid);
+            }
+            if (j+1<grid[0].size()&&grid[i][j+1]=='1') {
+                searchAround(i, j+1, grid);
+            }
         }
-        channels.clear();
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    int A[] = {2,0,2};
-    int result=s.trap(A, 3);
+
     return 0;
 }
