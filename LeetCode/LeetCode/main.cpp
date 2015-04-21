@@ -52,37 +52,74 @@ struct UndirectedGraphNode {
 };
 
 
-class Solution {
+class BSTIterator {
 public:
-    set<pair<int , int>> lands;
-    int numIslands(vector<vector<char>> &grid) {
-        int result=0;
-        for (int i=0; i<grid.size(); i++) {
-            for (int j=0; j<grid[0].size(); j++) {
-                if (grid[i][j]=='1'&&lands.find(pair<int, int>(i,j))==lands.end()) {
-                    searchAround(i, j, grid);
-                    result++;
-                }
+    vector<TreeNode *> path;
+    BSTIterator(TreeNode *root) {
+        findSmallest(root);
+    }
+    
+    void findSmallest(TreeNode *root) {
+        while (root) {
+            path.push_back(root);
+            root=root->left;
+        }
+    }
+    
+    void cleanRightSide() {
+        while (path.size()>1&&path.back()==path[path.size()-2]->right) {
+            path.pop_back();
+        }
+        path.pop_back();
+    }
+    /** @return whether we have a next smallest number */
+    bool hasNext() {
+        if (path.size()==0) {
+            return false;
+        }
+        return true;
+    }
+    
+    /** @return the next smallest number */
+    int next() {
+        auto back = path.back();
+        int result = back->val;
+        if (!back->left&&!back->right) {
+            if (path.size()>1&&back==path[path.size()-2]->left) {
+                path.pop_back();
             }
+            else if (path.size()>1&&back==path[path.size()-2]->right) {
+                cleanRightSide();
+            }
+            else{
+                path.pop_back();
+            }
+        }
+        else if (back->right) {
+            findSmallest(back->right);
+        }
+        else{
+            cleanRightSide();
         }
         return result;
-    }
-    void searchAround(int i,int j,vector<vector<char>> &grid) {
-        if (lands.find(pair<int, int>(i,j))==lands.end()) {
-            lands.insert(pair<int, int>(i,j));
-            if (i+1<grid.size()&&grid[i+1][j]=='1') {
-                searchAround(i+1, j, grid);
-            }
-            if (j+1<grid[0].size()&&grid[i][j+1]=='1') {
-                searchAround(i, j+1, grid);
-            }
-        }
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    Solution s = Solution();
-
+    auto a = new TreeNode(8);
+    a->left = new TreeNode(3);
+    a->right = new TreeNode(10);
+    a->left->left = new TreeNode(1);
+    a->left->right = new TreeNode(6);
+    a->left->right->left = new TreeNode(4);
+    a->left->right->right = new TreeNode(7);
+    a->right->right = new TreeNode(14);
+    a->right->right->left = new TreeNode(13);
+    BSTIterator i = BSTIterator(a);
+    while (i.hasNext()) {
+        auto result = i.next();
+        cout<<result<<endl;
+    }
     return 0;
 }
