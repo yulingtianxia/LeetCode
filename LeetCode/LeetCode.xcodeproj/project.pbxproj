@@ -12,6 +12,7 @@
 		A424D05B1A9B09F300F8439F /* 33	Search in Rotated Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A424D05A1A9B09F300F8439F /* 33	Search in Rotated Sorted Array.cpp */; };
 		A424D05D1A9B31C400F8439F /* 81	Search in Rotated Sorted Array II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A424D05C1A9B31C400F8439F /* 81	Search in Rotated Sorted Array II.cpp */; };
 		A42CAAF41A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */; };
+		A4357EAC1AE7672400893B16 /* 202	Happy Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */; };
 		A44644061A931AD500DFACE1 /* 179	Largest Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */; };
 		A46F6A1A1A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */; };
 		A46F6A1C1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A1B1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp */; };
@@ -171,6 +172,7 @@
 		A424D05A1A9B09F300F8439F /* 33	Search in Rotated Sorted Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "33\tSearch in Rotated Sorted Array.cpp"; sourceTree = "<group>"; };
 		A424D05C1A9B31C400F8439F /* 81	Search in Rotated Sorted Array II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "81\tSearch in Rotated Sorted Array II.cpp"; sourceTree = "<group>"; };
 		A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "188\tBest Time to Buy and Sell Stock IV.cpp"; sourceTree = "<group>"; };
+		A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "202\tHappy Number.cpp"; sourceTree = "<group>"; };
 		A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "179\tLargest Number.cpp"; sourceTree = "<group>"; };
 		A46F6A171A8A491E00352A7D /* commonheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonheader.h; sourceTree = "<group>"; };
 		A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "172\tFactorial Trailing Zeroes.cpp"; sourceTree = "<group>"; };
@@ -474,6 +476,7 @@
 				A46F6A1D1A8A4DA000352A7D /* 169	Majority Element.cpp */,
 				A46F6A1B1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp */,
 				A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */,
+				A4AF80FB1AE6A8F100DC6905 /* 173	Binary Search Tree Iterator.cpp */,
 				A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */,
 				A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */,
 				A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */,
@@ -484,8 +487,8 @@
 				A4AD341B1AE3EEEE00715BEA /* 199	Binary Tree Right Side View.cpp */,
 				A4AD341D1AE3F82600715BEA /* 200	Number of Islands.cpp */,
 				A4AF80F91AE6448C00DC6905 /* 201	Bitwise AND of Numbers Range.cpp */,
+				A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */,
 				A46F6A171A8A491E00352A7D /* commonheader.h */,
-				A4AF80FB1AE6A8F100DC6905 /* 173	Binary Search Tree Iterator.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -591,6 +594,7 @@
 				A46F6A2D1A8A530300352A7D /* 118	Pascal's Triangle.cpp in Sources */,
 				A4A285311A92224B00EC986E /* 187	Repeated DNA Sequences.cpp in Sources */,
 				A46F6AAF1A8A5B2A00352A7D /* 116	Populating Next Right Pointers in Each Node.cpp in Sources */,
+				A4357EAC1AE7672400893B16 /* 202	Happy Number.cpp in Sources */,
 				A46F6B1E1A8A5FC300352A7D /* 40	Combination Sum II.cpp in Sources */,
 				A46F6B421A8A614F00352A7D /* 2	Add Two Numbers.cpp in Sources */,
 				A46F6A3B1A8A544800352A7D /* 101	Symmetric Tree.cpp in Sources */,

@@ -52,56 +52,25 @@ struct UndirectedGraphNode {
 };
 
 
-class BSTIterator {
+class Solution {
 public:
-    vector<TreeNode *> path;
-    BSTIterator(TreeNode *root) {
-        findSmallest(root);
-    }
-    
-    void findSmallest(TreeNode *root) {
-        while (root) {
-            path.push_back(root);
-            root=root->left;
+    unordered_map<int, int> path;
+    bool isHappy(int n) {
+        int value=0;
+        int key=n;
+        while (n) {
+            int temp = n%10;
+            value+=temp*temp;
+            n/=10;
         }
-    }
-    
-    void cleanRightSide() {
-        while (path.size()>1&&path.back()==path[path.size()-2]->right) {
-            path.pop_back();
+        if (value==1) {
+            return true;
         }
-        path.pop_back();
-    }
-    /** @return whether we have a next smallest number */
-    bool hasNext() {
-        if (path.size()==0) {
+        if (path.find(value)!=path.end()) {
             return false;
         }
-        return true;
-    }
-    
-    /** @return the next smallest number */
-    int next() {
-        auto back = path.back();
-        int result = back->val;
-        if (!back->left&&!back->right) {
-            if (path.size()>1&&back==path[path.size()-2]->left) {
-                path.pop_back();
-            }
-            else if (path.size()>1&&back==path[path.size()-2]->right) {
-                cleanRightSide();
-            }
-            else{
-                path.pop_back();
-            }
-        }
-        else if (back->right) {
-            findSmallest(back->right);
-        }
-        else{
-            cleanRightSide();
-        }
-        return result;
+        path[key]=value;
+        return isHappy(value);
     }
 };
 
