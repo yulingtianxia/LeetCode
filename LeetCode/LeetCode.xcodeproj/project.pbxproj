@@ -12,6 +12,7 @@
 		A424D05B1A9B09F300F8439F /* 33	Search in Rotated Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A424D05A1A9B09F300F8439F /* 33	Search in Rotated Sorted Array.cpp */; };
 		A424D05D1A9B31C400F8439F /* 81	Search in Rotated Sorted Array II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A424D05C1A9B31C400F8439F /* 81	Search in Rotated Sorted Array II.cpp */; };
 		A42CAAF41A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */; };
+		A43025C41AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43025C31AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp */; };
 		A4357EAC1AE7672400893B16 /* 202	Happy Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */; };
 		A44644061A931AD500DFACE1 /* 179	Largest Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */; };
 		A46F6A1A1A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */; };
@@ -172,6 +173,7 @@
 		A424D05A1A9B09F300F8439F /* 33	Search in Rotated Sorted Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "33\tSearch in Rotated Sorted Array.cpp"; sourceTree = "<group>"; };
 		A424D05C1A9B31C400F8439F /* 81	Search in Rotated Sorted Array II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "81\tSearch in Rotated Sorted Array II.cpp"; sourceTree = "<group>"; };
 		A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "188\tBest Time to Buy and Sell Stock IV.cpp"; sourceTree = "<group>"; };
+		A43025C31AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "203\tRemove Linked List Elements.cpp"; sourceTree = "<group>"; };
 		A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "202\tHappy Number.cpp"; sourceTree = "<group>"; };
 		A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "179\tLargest Number.cpp"; sourceTree = "<group>"; };
 		A46F6A171A8A491E00352A7D /* commonheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonheader.h; sourceTree = "<group>"; };
@@ -488,6 +490,7 @@
 				A4AD341D1AE3F82600715BEA /* 200	Number of Islands.cpp */,
 				A4AF80F91AE6448C00DC6905 /* 201	Bitwise AND of Numbers Range.cpp */,
 				A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */,
+				A43025C31AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp */,
 				A46F6A171A8A491E00352A7D /* commonheader.h */,
 			);
 			path = LeetCode;
@@ -654,6 +657,7 @@
 				A46F6A881A8A58F300352A7D /* 142	Linked List Cycle II.cpp in Sources */,
 				A46F6A911A8A595B00352A7D /* 137	Single Number II.cpp in Sources */,
 				A46F6A9A1A8A59AC00352A7D /* 133	Clone Graph.cpp in Sources */,
+				A43025C41AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp in Sources */,
 				A46F6AE51A8A5D8C00352A7D /* 79	Word Search.cpp in Sources */,
 				A46F6A311A8A534800352A7D /* 111	Minimum Depth of Binary Tree.cpp in Sources */,
 				A46F6A2B1A8A52E700352A7D /* 119	Pascal's Triangle II.cpp in Sources */,

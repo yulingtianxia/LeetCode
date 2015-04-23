@@ -54,41 +54,36 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    unordered_map<int, int> path;
-    bool isHappy(int n) {
-        int value=0;
-        int key=n;
-        while (n) {
-            int temp = n%10;
-            value+=temp*temp;
-            n/=10;
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode *last=head;
+        ListNode *result=head;
+        while (head) {
+            if (head->val==val) {
+                if (last!=head) {
+                    head=head->next;
+                    last->next=head;
+                }
+                else{
+                    result=last=head=head->next;
+                }
+            }
+            else{
+                if (last!=head) {
+                    last=last->next;
+                }
+                head=head->next;
+            }
         }
-        if (value==1) {
-            return true;
-        }
-        if (path.find(value)!=path.end()) {
-            return false;
-        }
-        path[key]=value;
-        return isHappy(value);
+        return result;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    auto a = new TreeNode(8);
-    a->left = new TreeNode(3);
-    a->right = new TreeNode(10);
-    a->left->left = new TreeNode(1);
-    a->left->right = new TreeNode(6);
-    a->left->right->left = new TreeNode(4);
-    a->left->right->right = new TreeNode(7);
-    a->right->right = new TreeNode(14);
-    a->right->right->left = new TreeNode(13);
-    BSTIterator i = BSTIterator(a);
-    while (i.hasNext()) {
-        auto result = i.next();
-        cout<<result<<endl;
-    }
+    ListNode *a = new ListNode(1);
+    ListNode *b = new ListNode(2);
+    a->next=b;
+    Solution s = Solution();
+    s.removeElements(a, 2);
     return 0;
 }
