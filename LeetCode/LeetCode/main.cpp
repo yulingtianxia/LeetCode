@@ -54,36 +54,34 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
-        ListNode *last=head;
-        ListNode *result=head;
-        while (head) {
-            if (head->val==val) {
-                if (last!=head) {
-                    head=head->next;
-                    last->next=head;
-                }
-                else{
-                    result=last=head=head->next;
-                }
+    void nextPermutation(vector<int> &num) {
+        int biggestIndex=num.size()-1;
+        for (int i=num.size()-2; i>=0; i--) {
+            if (num[i]>=num[biggestIndex]) {
+                biggestIndex=i;
             }
             else{
-                if (last!=head) {
-                    last=last->next;
+                int smallestBiggerThanIndex=i+1;
+                for (int j=i+2; j<num.size(); j++) {
+                    if (num[j]>num[i]&&num[j]<num[smallestBiggerThanIndex]) {
+                        smallestBiggerThanIndex=j;
+                    }
                 }
-                head=head->next;
+                int temp=num[i];
+                num[i]=num[smallestBiggerThanIndex];
+                num[smallestBiggerThanIndex]=temp;
+                sort(num.begin()+i+1, num.end());
+                return;
             }
         }
-        return result;
+        sort(num.begin(), num.end());
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    ListNode *a = new ListNode(1);
-    ListNode *b = new ListNode(2);
-    a->next=b;
     Solution s = Solution();
-    s.removeElements(a, 2);
+    vector<int> nums = {5,1,1};
+    s.nextPermutation(nums);
     return 0;
 }

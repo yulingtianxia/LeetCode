@@ -14,6 +14,8 @@
 		A42CAAF41A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */; };
 		A43025C41AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43025C31AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp */; };
 		A4357EAC1AE7672400893B16 /* 202	Happy Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */; };
+		A43EA8151AEB2D1500AE1B43 /* 16	3Sum Closest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43EA8141AEB2D1500AE1B43 /* 16	3Sum Closest.cpp */; };
+		A43EA8171AEB6B9000AE1B43 /* 31	Next Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43EA8161AEB6B9000AE1B43 /* 31	Next Permutation.cpp */; };
 		A44644061A931AD500DFACE1 /* 179	Largest Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */; };
 		A46F6A1A1A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */; };
 		A46F6A1C1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A1B1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp */; };
@@ -175,6 +177,8 @@
 		A42CAAF31A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "188\tBest Time to Buy and Sell Stock IV.cpp"; sourceTree = "<group>"; };
 		A43025C31AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "203\tRemove Linked List Elements.cpp"; sourceTree = "<group>"; };
 		A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "202\tHappy Number.cpp"; sourceTree = "<group>"; };
+		A43EA8141AEB2D1500AE1B43 /* 16	3Sum Closest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "16\t3Sum Closest.cpp"; sourceTree = "<group>"; };
+		A43EA8161AEB6B9000AE1B43 /* 31	Next Permutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "31\tNext Permutation.cpp"; sourceTree = "<group>"; };
 		A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "179\tLargest Number.cpp"; sourceTree = "<group>"; };
 		A46F6A171A8A491E00352A7D /* commonheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonheader.h; sourceTree = "<group>"; };
 		A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "172\tFactorial Trailing Zeroes.cpp"; sourceTree = "<group>"; };
@@ -359,6 +363,7 @@
 				A46F6A5C1A8A56CC00352A7D /* 13	Roman to Integer.cpp */,
 				A46F6A5A1A8A56AB00352A7D /* 14	Longest Common Prefix.cpp */,
 				A46F6B371A8A60FC00352A7D /* 15	3Sum.cpp */,
+				A43EA8141AEB2D1500AE1B43 /* 16	3Sum Closest.cpp */,
 				A46F6B311A8A60BF00352A7D /* 17	Letter Combinations of a Phone Number.cpp */,
 				A46F6B341A8A60DB00352A7D /* 18	4Sum.cpp */,
 				A46F6A581A8A567000352A7D /* 19	Remove Nth Node From End of List.cpp */,
@@ -371,6 +376,7 @@
 				A46F6A521A8A560B00352A7D /* 27	Remove Element.cpp */,
 				A46F6A501A8A55E500352A7D /* 28	Implement strStr().cpp */,
 				A46F6B281A8A605800352A7D /* 29	Divide Two Integers.cpp */,
+				A43EA8161AEB6B9000AE1B43 /* 31	Next Permutation.cpp */,
 				A424D05A1A9B09F300F8439F /* 33	Search in Rotated Sorted Array.cpp */,
 				A46F6B251A8A604400352A7D /* 34	Search for a Range.cpp */,
 				A46F6B221A8A602A00352A7D /* 35	Search Insert Position.cpp */,
@@ -603,6 +609,7 @@
 				A46F6A3B1A8A544800352A7D /* 101	Symmetric Tree.cpp in Sources */,
 				A46F6A5F1A8A56F000352A7D /* 9	Palindrome Number.cpp in Sources */,
 				A46F6A971A8A599200352A7D /* 134	Gas Station.cpp in Sources */,
+				A43EA8171AEB6B9000AE1B43 /* 31	Next Permutation.cpp in Sources */,
 				A46F6A331A8A536500352A7D /* 110	Balanced Binary Tree.cpp in Sources */,
 				A46F6A5D1A8A56CC00352A7D /* 13	Roman to Integer.cpp in Sources */,
 				A46F6ABB1A8A5BB800352A7D /* 108	Convert Sorted Array to Binary Search Tree.cpp in Sources */,
@@ -687,6 +694,7 @@
 				A46F6AA31A8A5A1B00352A7D /* 129	Sum Root to Leaf Numbers.cpp in Sources */,
 				A46F6AA61A8A5A5500352A7D /* 122	Best Time to Buy and Sell Stock II.cpp in Sources */,
 				A46F6ADC1A8A5D2B00352A7D /* 86	Partition List.cpp in Sources */,
+				A43EA8151AEB2D1500AE1B43 /* 16	3Sum Closest.cpp in Sources */,
 				A46F6A431A8A54F300352A7D /* 70	Climbing Stairs.cpp in Sources */,
 				A46F6B2D1A8A607E00352A7D /* 24	Swap Nodes in Pairs.cpp in Sources */,
 				A46F6AE81A8A5DBC00352A7D /* 78	Subsets.cpp in Sources */,
