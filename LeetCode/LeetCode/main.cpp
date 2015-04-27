@@ -54,34 +54,45 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    void nextPermutation(vector<int> &num) {
-        int biggestIndex=num.size()-1;
-        for (int i=num.size()-2; i>=0; i--) {
-            if (num[i]>=num[biggestIndex]) {
-                biggestIndex=i;
-            }
-            else{
-                int smallestBiggerThanIndex=i+1;
-                for (int j=i+2; j<num.size(); j++) {
-                    if (num[j]>num[i]&&num[j]<num[smallestBiggerThanIndex]) {
-                        smallestBiggerThanIndex=j;
-                    }
-                }
-                int temp=num[i];
-                num[i]=num[smallestBiggerThanIndex];
-                num[smallestBiggerThanIndex]=temp;
-                sort(num.begin()+i+1, num.end());
-                return;
-            }
+    stack<string> dirs;
+    string dir;
+    string result="";
+    string simplifyPath(string path) {
+        if (path.back()!='/') {
+            path+="/";
         }
-        sort(num.begin(), num.end());
+        for (auto ch:path) {
+            if (ch=='/') {
+                if (dir.length()>0) {
+                    if (dir=="..") {
+                        if (!dirs.empty()) {
+                            dirs.pop();
+                        }
+                    }
+                    else if (dir!=".") {
+                        dirs.push(dir);
+                    }
+                    dir.clear();
+                }
+                continue;
+            }
+            dir.push_back(ch);
+        }
+        if (dirs.empty()) {
+            return "/";
+        }
+        while (!dirs.empty()) {
+            result.insert(0, "/"+dirs.top());
+            dirs.pop();
+        }
+        return result;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    vector<int> nums = {5,1,1};
-    s.nextPermutation(nums);
+    string result = s.simplifyPath("/..");
+    cout<<result;
     return 0;
 }

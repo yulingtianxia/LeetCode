@@ -16,6 +16,7 @@
 		A4357EAC1AE7672400893B16 /* 202	Happy Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */; };
 		A43EA8151AEB2D1500AE1B43 /* 16	3Sum Closest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43EA8141AEB2D1500AE1B43 /* 16	3Sum Closest.cpp */; };
 		A43EA8171AEB6B9000AE1B43 /* 31	Next Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43EA8161AEB6B9000AE1B43 /* 31	Next Permutation.cpp */; };
+		A44614841AEE2E7E002B9E16 /* 71	Simplify Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44614831AEE2E7E002B9E16 /* 71	Simplify Path.cpp */; };
 		A44644061A931AD500DFACE1 /* 179	Largest Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */; };
 		A46F6A1A1A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */; };
 		A46F6A1C1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6A1B1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp */; };
@@ -140,6 +141,7 @@
 		A46F6B601A8A627600352A7D /* 51	N-Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B5E1A8A627600352A7D /* 51	N-Queens.cpp */; };
 		A46F6B631A8A628E00352A7D /* 47	Permutations II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */; };
 		A46F6B661A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */; };
+		A48166FC1AECCE6100F6E20D /* 49	Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A48166FB1AECCE6100F6E20D /* 49	Anagrams.cpp */; };
 		A48D30671A9E06BF00A54213 /* 42	Trapping Rain Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A48D30661A9E06BF00A54213 /* 42	Trapping Rain Water.cpp */; };
 		A4A285311A92224B00EC986E /* 187	Repeated DNA Sequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */; };
 		A4AD34161AE3D44400715BEA /* 190	Reverse Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD34151AE3D44400715BEA /* 190	Reverse Bits.cpp */; };
@@ -179,6 +181,7 @@
 		A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "202\tHappy Number.cpp"; sourceTree = "<group>"; };
 		A43EA8141AEB2D1500AE1B43 /* 16	3Sum Closest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "16\t3Sum Closest.cpp"; sourceTree = "<group>"; };
 		A43EA8161AEB6B9000AE1B43 /* 31	Next Permutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "31\tNext Permutation.cpp"; sourceTree = "<group>"; };
+		A44614831AEE2E7E002B9E16 /* 71	Simplify Path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "71\tSimplify Path.cpp"; sourceTree = "<group>"; };
 		A44644051A931AD500DFACE1 /* 179	Largest Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "179\tLargest Number.cpp"; sourceTree = "<group>"; };
 		A46F6A171A8A491E00352A7D /* commonheader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonheader.h; sourceTree = "<group>"; };
 		A46F6A181A8A49D300352A7D /* 172	Factorial Trailing Zeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "172\tFactorial Trailing Zeroes.cpp"; sourceTree = "<group>"; };
@@ -304,6 +307,7 @@
 		A46F6B5E1A8A627600352A7D /* 51	N-Queens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "51\tN-Queens.cpp"; sourceTree = "<group>"; };
 		A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "47\tPermutations II.cpp"; sourceTree = "<group>"; };
 		A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "23\tMerge k Sorted Lists.cpp"; sourceTree = "<group>"; };
+		A48166FB1AECCE6100F6E20D /* 49	Anagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "49\tAnagrams.cpp"; sourceTree = "<group>"; };
 		A48D30661A9E06BF00A54213 /* 42	Trapping Rain Water.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "42\tTrapping Rain Water.cpp"; sourceTree = "<group>"; };
 		A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187\tRepeated DNA Sequences.cpp"; sourceTree = "<group>"; };
 		A4AD34151AE3D44400715BEA /* 190	Reverse Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "190\tReverse Bits.cpp"; sourceTree = "<group>"; };
@@ -389,6 +393,7 @@
 				A46F6B161A8A5F8500352A7D /* 46	Permutations.cpp */,
 				A46F6B611A8A628E00352A7D /* 47	Permutations II.cpp */,
 				A424D0581A9AFEA100F8439F /* 48	Rotate Image.cpp */,
+				A48166FB1AECCE6100F6E20D /* 49	Anagrams.cpp */,
 				A46F6B131A8A5F6000352A7D /* 50	Pow(x, n).cpp */,
 				A46F6B5E1A8A627600352A7D /* 51	N-Queens.cpp */,
 				A46F6B5B1A8A625E00352A7D /* 52	N-Queens II.cpp */,
@@ -406,6 +411,7 @@
 				A46F6A461A8A553200352A7D /* 67	Add Binary.cpp */,
 				A46F6AF51A8A5E4C00352A7D /* 69	Sqrt(x).cpp */,
 				A46F6A421A8A54F300352A7D /* 70	Climbing Stairs.cpp */,
+				A44614831AEE2E7E002B9E16 /* 71	Simplify Path.cpp */,
 				A46F6AF21A8A5E2A00352A7D /* 73	Set Matrix Zeroes.cpp */,
 				A46F6AEF1A8A5E0F00352A7D /* 74	Search a 2D Matrix.cpp */,
 				A46F6AEC1A8A5DF800352A7D /* 75	Sort Colors.cpp */,
@@ -586,6 +592,7 @@
 				A46F6A9D1A8A59CD00352A7D /* 131	Palindrome Partitioning.cpp in Sources */,
 				A46F6B031A8A5EAE00352A7D /* 61	Rotate List.cpp in Sources */,
 				A4AD34181AE3DA8D00715BEA /* 191	Number of 1 Bits.cpp in Sources */,
+				A48166FC1AECCE6100F6E20D /* 49	Anagrams.cpp in Sources */,
 				A46F6A941A8A597600352A7D /* 136	Single Number.cpp in Sources */,
 				A46F6B5D1A8A625E00352A7D /* 52	N-Queens II.cpp in Sources */,
 				A46F6AD61A8A5CDD00352A7D /* 91	Decode Ways.cpp in Sources */,
@@ -663,6 +670,7 @@
 				A46F6A8E1A8A593400352A7D /* 139	Word Break.cpp in Sources */,
 				A46F6A881A8A58F300352A7D /* 142	Linked List Cycle II.cpp in Sources */,
 				A46F6A911A8A595B00352A7D /* 137	Single Number II.cpp in Sources */,
+				A44614841AEE2E7E002B9E16 /* 71	Simplify Path.cpp in Sources */,
 				A46F6A9A1A8A59AC00352A7D /* 133	Clone Graph.cpp in Sources */,
 				A43025C41AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp in Sources */,
 				A46F6AE51A8A5D8C00352A7D /* 79	Word Search.cpp in Sources */,
