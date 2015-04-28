@@ -54,45 +54,28 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    stack<string> dirs;
-    string dir;
-    string result="";
-    string simplifyPath(string path) {
-        if (path.back()!='/') {
-            path+="/";
-        }
-        for (auto ch:path) {
-            if (ch=='/') {
-                if (dir.length()>0) {
-                    if (dir=="..") {
-                        if (!dirs.empty()) {
-                            dirs.pop();
-                        }
-                    }
-                    else if (dir!=".") {
-                        dirs.push(dir);
-                    }
-                    dir.clear();
+    int countPrimes(int n) {
+        vector<bool> isPrime(n,true);
+        int count=0;
+        int ceil=sqrt(n);
+        for (int i=2; i<n; i++) {
+            if (isPrime[i]) {
+                count++;
+                if (i>ceil) {
+                    continue;
                 }
-                continue;
+                for (int j=2*i; j<n; j+=i) {
+                    isPrime[j]=false;
+                }
             }
-            dir.push_back(ch);
         }
-        if (dirs.empty()) {
-            return "/";
-        }
-        while (!dirs.empty()) {
-            result.insert(0, "/"+dirs.top());
-            dirs.pop();
-        }
-        return result;
+        return count;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    string result = s.simplifyPath("/..");
-    cout<<result;
+    s.countPrimes(120);
     return 0;
 }
