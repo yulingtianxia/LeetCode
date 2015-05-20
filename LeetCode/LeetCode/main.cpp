@@ -54,28 +54,28 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    int countPrimes(int n) {
-        vector<bool> isPrime(n,true);
-        int count=0;
-        int ceil=sqrt(n);
-        for (int i=2; i<n; i++) {
-            if (isPrime[i]) {
-                count++;
-                if (i>ceil) {
-                    continue;
-                }
-                for (int j=2*i; j<n; j+=i) {
-                    isPrime[j]=false;
-                }
+    ListNode* reverseList(ListNode* head) {
+        if (!head) {
+            return NULL;
+        }
+        ListNode *last=NULL;
+        ListNode *current=head;
+        ListNode *next=head->next;
+        while (current) {
+            current->next=last;
+            last=current;
+            current=next;
+            if (next) {
+                next=next->next;
             }
         }
-        return count;
+        return last;
     }
 };
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    s.countPrimes(120);
+    
     return 0;
 }

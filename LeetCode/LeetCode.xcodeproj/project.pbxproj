@@ -144,6 +144,8 @@
 		A46F6B661A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */; };
 		A48166FC1AECCE6100F6E20D /* 49	Anagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A48166FB1AECCE6100F6E20D /* 49	Anagrams.cpp */; };
 		A48D30671A9E06BF00A54213 /* 42	Trapping Rain Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A48D30661A9E06BF00A54213 /* 42	Trapping Rain Water.cpp */; };
+		A4970D4C1B0C6B89009B66BB /* 205	Isomorphic Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4970D4B1B0C6B89009B66BB /* 205	Isomorphic Strings.cpp */; };
+		A4970D4E1B0C6EB3009B66BB /* 206	Reverse Linked List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4970D4D1B0C6EB3009B66BB /* 206	Reverse Linked List.cpp */; };
 		A4A285311A92224B00EC986E /* 187	Repeated DNA Sequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */; };
 		A4AD34161AE3D44400715BEA /* 190	Reverse Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD34151AE3D44400715BEA /* 190	Reverse Bits.cpp */; };
 		A4AD34181AE3DA8D00715BEA /* 191	Number of 1 Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4AD34171AE3DA8D00715BEA /* 191	Number of 1 Bits.cpp */; };
@@ -311,6 +313,8 @@
 		A46F6B641A8A62AF00352A7D /* 23	Merge k Sorted Lists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "23\tMerge k Sorted Lists.cpp"; sourceTree = "<group>"; };
 		A48166FB1AECCE6100F6E20D /* 49	Anagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "49\tAnagrams.cpp"; sourceTree = "<group>"; };
 		A48D30661A9E06BF00A54213 /* 42	Trapping Rain Water.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "42\tTrapping Rain Water.cpp"; sourceTree = "<group>"; };
+		A4970D4B1B0C6B89009B66BB /* 205	Isomorphic Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "205\tIsomorphic Strings.cpp"; sourceTree = "<group>"; };
+		A4970D4D1B0C6EB3009B66BB /* 206	Reverse Linked List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "206\tReverse Linked List.cpp"; sourceTree = "<group>"; };
 		A4A285301A92224B00EC986E /* 187	Repeated DNA Sequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "187\tRepeated DNA Sequences.cpp"; sourceTree = "<group>"; };
 		A4AD34151AE3D44400715BEA /* 190	Reverse Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "190\tReverse Bits.cpp"; sourceTree = "<group>"; };
 		A4AD34171AE3DA8D00715BEA /* 191	Number of 1 Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "191\tNumber of 1 Bits.cpp"; sourceTree = "<group>"; };
@@ -506,6 +510,8 @@
 				A4357EAB1AE7672400893B16 /* 202	Happy Number.cpp */,
 				A43025C31AE8C8350012F3A3 /* 203	Remove Linked List Elements.cpp */,
 				A4173C061AEF7E090037CCA7 /* 204	Count Primes.cpp */,
+				A4970D4B1B0C6B89009B66BB /* 205	Isomorphic Strings.cpp */,
+				A4970D4D1B0C6EB3009B66BB /* 206	Reverse Linked List.cpp */,
 				A46F6A171A8A491E00352A7D /* commonheader.h */,
 			);
 			path = LeetCode;
@@ -587,6 +593,7 @@
 				A4AD341E1AE3F82600715BEA /* 200	Number of Islands.cpp in Sources */,
 				A46F6B3F1A8A613300352A7D /* 11	Container With Most Water.cpp in Sources */,
 				A46F6B4B1A8A619B00352A7D /* 154	Find Minimum in Rotated Sorted Array II.cpp in Sources */,
+				A4970D4E1B0C6EB3009B66BB /* 206	Reverse Linked List.cpp in Sources */,
 				A46F6A551A8A562900352A7D /* 26	Remove Duplicates from Sorted Array.cpp in Sources */,
 				A46F6A5B1A8A56AB00352A7D /* 14	Longest Common Prefix.cpp in Sources */,
 				A44644061A931AD500DFACE1 /* 179	Largest Number.cpp in Sources */,
@@ -661,6 +668,7 @@
 				A42CAAF41A98614300A87524 /* 188	Best Time to Buy and Sell Stock IV.cpp in Sources */,
 				A46F6AC71A8A5C4100352A7D /* 96	Unique Binary Search Trees.cpp in Sources */,
 				A46F6A1C1A8A4C9100352A7D /* 171	Excel Sheet Column Number.cpp in Sources */,
+				A4970D4C1B0C6B89009B66BB /* 205	Isomorphic Strings.cpp in Sources */,
 				A46F6A3D1A8A548100352A7D /* 100	Same Tree.cpp in Sources */,
 				A4AD34161AE3D44400715BEA /* 190	Reverse Bits.cpp in Sources */,
 				A4C012531A9DBA4B000FEDFE /* 189	Rotate Array.cpp in Sources */,
