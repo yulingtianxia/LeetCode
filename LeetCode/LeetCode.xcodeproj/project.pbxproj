@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40EA8F71B15FE4700F0CB56 /* 217	Contains Duplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40EA8F61B15FE4700F0CB56 /* 217	Contains Duplicate.cpp */; };
 		A4173C071AEF7E090037CCA7 /* 204	Count Primes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4173C061AEF7E090037CCA7 /* 204	Count Primes.cpp */; };
 		A4189FD01A272AE300E363E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4189FCF1A272AE300E363E6 /* main.cpp */; };
 		A424D0591A9AFEA100F8439F /* 48	Rotate Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A424D0581A9AFEA100F8439F /* 48	Rotate Image.cpp */; };
@@ -174,6 +175,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A40EA8F61B15FE4700F0CB56 /* 217	Contains Duplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "217\tContains Duplicate.cpp"; sourceTree = "<group>"; };
 		A4173C061AEF7E090037CCA7 /* 204	Count Primes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "204\tCount Primes.cpp"; sourceTree = "<group>"; };
 		A4189FCC1A272AE300E363E6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4189FCF1A272AE300E363E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = LeetCode/main.cpp; sourceTree = "<group>"; };
@@ -513,6 +515,7 @@
 				A4970D4B1B0C6B89009B66BB /* 205	Isomorphic Strings.cpp */,
 				A4970D4D1B0C6EB3009B66BB /* 206	Reverse Linked List.cpp */,
 				A46F6A171A8A491E00352A7D /* commonheader.h */,
+				A40EA8F61B15FE4700F0CB56 /* 217	Contains Duplicate.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -707,6 +710,7 @@
 				A46F6B2A1A8A605800352A7D /* 29	Divide Two Integers.cpp in Sources */,
 				A46F6B1B1A8A5F9F00352A7D /* 43	Multiply Strings.cpp in Sources */,
 				A46F6B061A8A5EC500352A7D /* 60	Permutation Sequence.cpp in Sources */,
+				A40EA8F71B15FE4700F0CB56 /* 217	Contains Duplicate.cpp in Sources */,
 				A46F6A671A8A577A00352A7D /* 6	ZigZag Conversion.cpp in Sources */,
 				A46F6B271A8A604400352A7D /* 34	Search for a Range.cpp in Sources */,
 				A46F6B0F1A8A5F1D00352A7D /* 54	Spiral Matrix.cpp in Sources */,

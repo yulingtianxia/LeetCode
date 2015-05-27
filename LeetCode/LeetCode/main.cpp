@@ -54,22 +54,16 @@ struct UndirectedGraphNode {
 
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        if (!head) {
-            return NULL;
+    bool containsDuplicate(vector<int>& nums) {
+        set<int> tag;
+        for (int i = 0; i < nums.size(); ++i) {
+            if(tag.find(nums[i])!= tag.end())
+                return true;
+            else
+                tag.insert(nums[i]);
+            
         }
-        ListNode *last=NULL;
-        ListNode *current=head;
-        ListNode *next=head->next;
-        while (current) {
-            current->next=last;
-            last=current;
-            current=next;
-            if (next) {
-                next=next->next;
-            }
-        }
-        return last;
+        return false;
     }
 };
 
